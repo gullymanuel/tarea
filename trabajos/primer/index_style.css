@@ -1,0 +1,155 @@
+
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: verdana;
+}
+body{
+    background: gray;
+}
+div.padre{
+    width: auto;
+    height: 180px;
+    margin: 0;
+    background-color: white;
+    position: relative;
+    
+    
+}
+div.titulo{
+    position:absolute;
+    margin: 50px 50px;
+    
+}
+h1.sen{
+    position: absolute;
+    color: royalblue;
+    margin:  110px 150px; 
+    font-family:'Times New Roman';
+}
+div.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+input.src{
+    padding: 9px 10px 9px 32px;
+    font-size: 18px;
+    border-radius: 15px;
+    color: #444;
+    border: 3px solid #18060f;
+    background:#fff url("./buscar.png" ) no-repeat 9px center;
+    width: 200px;
+    transition: all 0.5s;
+
+}
+input.src:hover{
+    width: 180px;
+    background-color: #fff;
+    border-color: #8c10b3;
+    box-shadow: 0 0 5px  #6dcff680;
+
+}
+div.menu{
+	padding: 0;
+	margin: 0;
+}
+    div.menu div{
+	display: inline-block;
+	vertical-align: top;
+}
+    menu #menu-lista{
+	width: 95%;
+	text-align:right;
+}
+    menu #menu-lista ul{
+	margin: 0;
+	padding: 0;
+} 
+    menu #menu-lista ul li{
+	display: inline-block;
+	padding: 0;
+	margin:20px 5px;
+	list-style: none;
+
+}
+    menu #menu-lista ul li a{
+	color: rgb(4, 83, 136);
+    text-decoration:none;
+    font-family: "arial";
+} 
+    menu #menu-lista ul li a:hover{
+	color: rgb(216, 121, 12);
+	text-decoration: underline;
+
+}
+
+
+header {
+    margin:150px auto   ;
+    width: 1200px;
+    height: 250px;
+    background-color: red;
+}
+
+div.contenedor{
+    width: 200px;
+    height: 250px;
+    float: left;
+    -webkit-transition:height 0.5s ;
+}
+
+div#uno{
+    background-color: rgb(208, 101,3);
+}
+
+div#dos{
+    background-color: rgb(233, 147,26);
+}
+
+div#tres{
+    background-color: rgb(22, 145,190);
+}
+
+div#cuatro{
+    background-color: rgb(22, 187, 162);
+}
+
+div#cinco{
+    background-color: rgb(27, 54,71);
+}
+
+div#seis{
+    background-color: rgb(21, 40,54);
+}
+img.icon{
+    display: block;
+    margin:50px auto;
+    background-color: rgba(255, 255, 255,0.15);
+    width: 40px;
+    padding: 20px;
+    -webkit-border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+    -webkit-transition:box-shadow 0.9s;
+
+}
+p.texto{
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    opacity: 0.6;
+    -webkit-transition: padding-top 0.5s ;
+
+}
+div.contenedor:hover{
+    height: 260px;
+}
+div.contenedor:hover p.texto{
+    padding-top: 20px;
+    opacity: 1;
+}
+div.contenedor:hover img.icon{
+    -webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,0.6);
+}

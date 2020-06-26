@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?af6mpw');
+  src:  url('fonts/icomoon.eot?af6mpw#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?af6mpw') format('truetype'),
+    url('fonts/icomoon.woff?af6mpw') format('woff'),
+    url('fonts/icomoon.svg?af6mpw#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-car:before {
+  content: "\e900";
+}
+.icon-automobile:before {
+  content: "\e900";
+}
+.icon-travel:before {
+  content: "\e900";
+}
+.icon-automobile1:before {
+  content: "\e901";
+}
+.icon-car1:before {
+  content: "\e901";
+}
+.icon-office:before {
+  content: "\e903";
+}
+.icon-mobile2:before {
+  content: "\e959";
+}
+.icon-glass:before {
+  content: "\e9a0";
+}
+.icon-briefcase:before {
+  content: "\e9ae";
+}
+.icon-airplane:before {
+  content: "\e9af";
+}
+.icon-cool:before {
+  content: "\e9eb";
+}
